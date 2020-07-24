@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<div>
-   <div class="mx-auto d-flex flex-column">
+<div class="d-flex">
+   <div class="d-flex flex-column">
       <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="300px" align="left"></img><div>
       <div class="d-flex" width="400px">
              <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="100px"></img></div>  
