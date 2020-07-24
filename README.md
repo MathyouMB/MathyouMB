@@ -17,11 +17,11 @@ Here are some ideas to get you started:
 <div class="d-flex" width="100%">
    <div class="d-flex flex-column flex-items-center flex-justify-center">
        <div>
-           <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png"></img>
+           <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="400px"></img>
        </div>
        <div class="d-flex">
-               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png"></img></div>  
-               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png"></img></div>  
+               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="100px"></img></div>  
+               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="100px"></img></div>  
        </div>
    </div>
    <div>
