@@ -14,17 +14,17 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<div style="display:flex;" width="100%">
-     <div style="display:flex; flex-direction: column; align-items: center; justify-content: center;">
-         <div>
-             <img src="./name.png"></img>
-         </div>
-         <div style="display:flex">
-                 <div><img src="./viewmywork.png"></img></div>  
-                 <div><img src="./downloadcv.png"></img></div>  
-         </div>
-     </div>
-     <div>
-         <img src="./skill_wheel.gif"></img>
-     </div>
+<div class="d-flex" width="100%">
+   <div class="d-flex flex-column flex-items-center flex-justify-center">
+       <div>
+           <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png"></img>
+       </div>
+       <div class="d-flex">
+               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png"></img></div>  
+               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png"></img></div>  
+       </div>
+   </div>
+   <div>
+       <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif"></img>
+   </div>
 </div>
