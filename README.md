@@ -20,8 +20,8 @@ Here are some ideas to get you started:
            <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="400px"></img>
        </div>
        <div class="d-flex">
-               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="100px"></img></div>  
-               <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="100px"></img></div>  
+               <div width="100px"><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="100px"></img></div>  
+               <div width="100px"><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="100px"></img></div>  
        </div>
    </div>
    <div>
