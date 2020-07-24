@@ -17,8 +17,8 @@ Here are some ideas to get you started:
 <div class="d-flex">
   <div class="d-flex flex-column ">
      <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png"></img></div>  
-      <br>
-     <div class="d-flex">
+     <br>
+     <div class="d-flex flex-row">
           <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png"></img></div>  
           <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png"></img></div>  
      </div>
