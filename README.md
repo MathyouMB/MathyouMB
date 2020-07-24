@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 <p align="center">
     <span>
-       <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="350px"></img>
+       <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="320px"></img>
    </span>
 	
 <p align="center">
