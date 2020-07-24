@@ -14,5 +14,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif"></img>
+<div class="d-flex">
+  <div class="d-flex flex-column ">
+     <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png"></img></div>  
+      <br>
+     <div class="d-flex">
+          <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png"></img></div>  
+          <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png"></img></div>  
+     </div>
+  </div>
+       
+  <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif"></img></div>
+</div>
