@@ -25,6 +25,6 @@ Here are some ideas to get you started:
        </div>
    </div>
    <div>
-       <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif"></img>
+       <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="400px"></img>
    </div>
 </div>
