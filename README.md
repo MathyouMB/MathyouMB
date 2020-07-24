@@ -14,8 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<div class="d-flex">
+   <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="300px"></img></div>  
+   <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="400px"></img></div>
+</div>
+<!--
 <div class="d-flex flex-row">
-  <div class="d-flex flex-column">
+  <div class="d-flex flex-column" height="600px">
      <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="300px"></img></div>  
      <div class="d-flex flex-row">
           <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="100px"></img></div>  
@@ -25,3 +30,4 @@ Here are some ideas to get you started:
 </div>
 <br>
 <div><img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="400px"align="right"></img></div>
+-->
