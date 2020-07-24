@@ -18,14 +18,16 @@ Here are some ideas to get you started:
 <p align="center">
     <span>
        <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="350px"></img>
-      
    </span>
-	 <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="450px" alt="Mac">
-</p>
- <span>
+	
+
+ <div>
           <img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="100px"></img>
           <img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="100px"></img> 
-       </span>
+       </div>
+       
+ <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="450px" alt="Mac">
+ </p>
 <!--
 <div class="d-flex" width="100%">
    <div class="d-flex flex-column flex-items-center flex-justify-center">
