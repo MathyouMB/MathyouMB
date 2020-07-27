@@ -45,5 +45,3 @@ Here are some ideas to get you started:
    </div>
 </div>
 -->
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MathyouMB&layout=compact&hide=actionscript,csharp,visualbasic)]
