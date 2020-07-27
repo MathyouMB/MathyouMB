@@ -46,4 +46,4 @@ Here are some ideas to get you started:
 </div>
 -->
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MathyouMB&hide=actionscript,c#,visualbasic)]
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MathyouMB&hide=actionscript,csharp,visual basic)
