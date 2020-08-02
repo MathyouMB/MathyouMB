@@ -21,8 +21,8 @@ Here are some ideas to get you started:
    </span>
 	
 <p align="center">
-          <img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="125px"></img>
-          <img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="125px"></img> 
+          <a href="http://matthewmacraebovell.com/"><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="125px"></img></a>
+          <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view"<img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="125px"></img></a>
 	  </p>
   <p align="center">
  <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="450px" alt="Mac">
