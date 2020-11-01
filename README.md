@@ -2,7 +2,10 @@
 <div>
        <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="320px"></img>
    </div>
-     💻 Software Developer | 🌌 Ottawa, CAN
+<p align="center">
+          <a href="http://matthewmacraebovell.com/"><img src="https://github.com/MathyouMB/MathyouMB/blob/master/viewmywork.png" width="125px"></img></a>
+          <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view"><img src="https://github.com/MathyouMB/MathyouMB/blob/master/downloadcv.png" width="125px"></img></a>
+	  </p>
 </div>
 
 ### About Me
