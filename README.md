@@ -1,7 +1,7 @@
 
-<div align="center">
+<div align="left">
     
-## Hey There, I'm Matthew! 
+## Matthew MacRae-Bovell
 
   💻 Software Developer | 🗺️ Ottawa, CA | <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">📝 Resume</a> | <a href="https://matthewmacraebovell.com/">🔗 Website</a>
 
