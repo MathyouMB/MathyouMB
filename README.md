@@ -1,15 +1,9 @@
 
 <div align="left">
     
-## Matthew MacRae-Bovell
+# Matthew MacRae-Bovell
 
   💻 Software Developer | 🗺️ Ottawa, CA | <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">📝 Resume</a> | <a href="https://matthewmacraebovell.com/">🔗 Website</a>
-
-I'm a Carleton University computer science student interested in web development, distributed systems, and cloud infrastructure.
-
-
-
-
 
 </div>
 <div align="center">
