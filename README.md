@@ -3,7 +3,7 @@
     
 # Matthew MacRae-Bovell
 
-  💻 Software Developer | 🗺️ Ottawa, CA | <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">📝 Resume</a> | <a href="https://matthewmacraebovell.com/">🔗 Website</a>
+  💻 Software Developer | 🏠 Ottawa, CA | <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">📝 Resume</a> | <a href="https://matthewmacraebovell.com/">🌎 Website</a>
 
 </div>
 <div align="center">
