@@ -1,14 +1,20 @@
 
 <div align="center">
     
-# Hey There, I'm Matthew! 
-
-I'm a Carleton University computer science student interested in web development, distributed systems, and cloud infrastructure.
+## Hey There, I'm Matthew! 
 
   💻 Software Developer | 🗺️ Ottawa, CA | <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">📝 Resume</a> | <a href="https://matthewmacraebovell.com/">🔗 Website</a>
 
+I'm a Carleton University computer science student interested in web development, distributed systems, and cloud infrastructure.
+
+
+
+
 
 </div>
+
+___
+
 <div align="center">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mathyoumb)](https://github.com/anuraghazra/github-readme-stats)
