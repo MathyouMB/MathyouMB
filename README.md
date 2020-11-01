@@ -1,9 +1,9 @@
 
 <div align="center">
     
-# Matthew MacRae-Bovell
+# Hey There, I'm Matthew! 
 
-Hey There, I'm Matthew! I'm a Carleton University computer science student interested in web development, distributed systems, and cloud infrastructure.
+I'm a Carleton University computer science student interested in web development, distributed systems, and cloud infrastructure.
 
   💻 Software Developer | 🗺️ Ottawa, CA | <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">📝 Resume</a> | <a href="https://matthewmacraebovell.com/">🔗 Website</a>
 
