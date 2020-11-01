@@ -1,6 +1,7 @@
 <div align="center">
-
-### Hi there 👋
+<span>
+       <img src="https://github.com/MathyouMB/MathyouMB/blob/master/name.png" width="320px"></img>
+   </span>
      💻 Software Developer | 🌌 Ottawa, CAN
 </div>
 
