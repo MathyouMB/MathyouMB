@@ -8,6 +8,6 @@
 </div>
 <div align="center">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mathyoumb&langs_count=8&hide=css,php,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mathyoumb&langs_count=5&hide=css,php,html)](https://github.com/anuraghazra/github-readme-stats)
 <img src="https://github.com/MathyouMB/MathyouMB/blob/master/skill_wheel.gif" width="350px" alt="Mac">
 </div>
