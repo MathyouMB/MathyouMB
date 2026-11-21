@@ -1,6 +1,6 @@
 """Generate the SVG assets for the GitHub profile README.
 
-Styled after https://matthewmacraebovell.com (Geist, vortex rings, facet cards).
+Styled after https://matthewmacraebovell.com (Geist, vortex rings).
 
     pip install fonttools brotli
     python scripts/generate.py
@@ -32,7 +32,6 @@ THEMES = {
         border="rgba(15,23,42,0.12)",
         glow=1.0,
         ring=1.0,
-        code="rgba(15,23,42,0.07)",
     ),
     "dark": dict(
         bg="#0b0f19",
@@ -43,7 +42,6 @@ THEMES = {
         border="rgba(226,232,240,0.12)",
         glow=1.6,
         ring=1.4,
-        code="rgba(226,232,240,0.07)",
     ),
 }
 
@@ -55,50 +53,6 @@ ROLES = [
     "Community Builder",
     "Game Designer",
     "Adventurer",
-]
-
-# key, label, colour (rgb), heading lines, description lines, cta
-CARDS = [
-    (
-        "engineer",
-        "Software Engineer",
-        (81, 122, 255),
-        ["Building systems", "that scale."],
-        ["Authorization at GitLab, and production systems", "at Shopify and RBC — used by millions worldwide."],
-        "Explore engineering",
-    ),
-    (
-        "writer",
-        "Writer",
-        (168, 85, 247),
-        ["Thoughts on craft", "and career."],
-        ["Engineering, developer growth, and", "lessons learned the hard way."],
-        "Read the blog",
-    ),
-    (
-        "speaker",
-        "Speaker",
-        (20, 184, 166),
-        ["Presenting ideas", "to audiences."],
-        ["Talks and workshops across universities,", "conferences, and meetups."],
-        "View talks",
-    ),
-    (
-        "researcher",
-        "Researcher",
-        (245, 158, 11),
-        ["Advancing the", "discipline."],
-        ["Paper accepted to FSE 2026 on", "fault injection in software systems."],
-        "See my research",
-    ),
-    (
-        "game",
-        "Game Designer",
-        (236, 72, 153),
-        ["Crafting worlds", "and experiences."],
-        ["Designing games that are playful,", "surprising, and worth your time."],
-        "See my games",
-    ),
 ]
 
 BUTTONS = [
@@ -117,14 +71,8 @@ def all_text():
     parts = ["Matthew MacRae-Bovell", "Ottawa, Canada", "OTTAWA, CANADA", "→"]
     parts += ROLES
     parts.append("Building things, sharing ideas, and exploring what's next.")
-    for _, label, _, head, desc, cta in CARDS:
-        parts += [label, label.upper(), cta, *head, *desc]
     parts += [b[1] for b in BUTTONS]
-    parts.append(CODE)
     return "".join(parts)
-
-
-CODE = "fn authorize(actor, action) {\n  policy.evaluate(actor, action)\n}"
 
 
 def subset_font(name, text):
@@ -272,74 +220,6 @@ def hero(t):
 </svg>"""
 
 
-# ── facet cards ──────────────────────────────────────────────────────────
-
-
-def card(t, key, label, rgb, head, desc, cta, wide, side):
-    # Half cards are drawn inside a 600px-wide canvas with a transparent
-    # gutter on the inner edge so two images placed side by side get a gap.
-    W = 1200 if wide else 600
-    H = 300
-    gap = 10
-    if wide:
-        x0, cw = 0, W
-    elif side == "left":
-        x0, cw = 0, W - gap
-    else:
-        x0, cw = gap, W - gap
-    y0, ch = gap, H - gap * 2
-
-    pad = 40
-    corner = {"engineer": (0, 0), "writer": (1, 0), "speaker": (0, 1), "researcher": (0.5, 0.5), "game": (1, 1)}[key]
-    gx, gy = x0 + corner[0] * cw, y0 + corner[1] * ch
-    ga = 0.16 * t["glow"]
-
-    decor = ""
-    if wide:
-        lines = CODE.split("\n")
-        decor = "".join(
-            f'<text class="m" x="{x0 + cw - 560}" y="{y0 + 112 + i * 34}" font-size="24" fill="{t["code"]}" xml:space="preserve">{esc(l)}</text>'
-            for i, l in enumerate(lines)
-        )
-
-    tx = x0 + pad
-    head_svg = "".join(
-        f'<text class="s" x="{tx}" y="{y0 + 112 + i * 38}" font-size="34" font-weight="700" letter-spacing="-1" fill="{t["text"]}">{esc(h)}</text>'
-        for i, h in enumerate(head)
-    )
-    desc_svg = "".join(
-        f'<text class="s" x="{tx}" y="{y0 + 192 + i * 25}" font-size="17" fill="{t["muted"]}">{esc(d)}</text>'
-        for i, d in enumerate(desc)
-    )
-    cta_w = sans_m.width(cta, 16, 500)
-
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(label)} — {esc(' '.join(head))}">
-<title>{esc(label)}</title>
-<style>{FONT_CSS}
-@keyframes pulse{{0%,100%{{opacity:.75;transform:scale(1)}}50%{{opacity:1;transform:scale(1.12)}}}}
-@keyframes nudge{{0%,70%,100%{{transform:none}}80%{{transform:translateX(4px)}}}}
-.glow{{transform-box:fill-box;transform-origin:center;animation:pulse 6s ease-in-out infinite}}
-.arrow{{animation:nudge 3s ease-in-out infinite}}
-{REDUCED}</style>
-<defs>
-<radialGradient id="g"><stop offset="0" stop-color="{rgba(rgb, ga)}"/><stop offset=".65" stop-color="{rgba(rgb, 0)}"/></radialGradient>
-<clipPath id="c"><rect x="{x0}" y="{y0}" width="{cw}" height="{ch}" rx="20"/></clipPath>
-</defs>
-<g clip-path="url(#c)">
-<rect x="{x0}" y="{y0}" width="{cw}" height="{ch}" fill="{t["card"]}"/>
-<ellipse class="glow" cx="{gx}" cy="{gy}" rx="{cw * 0.75}" ry="{ch * 1.1}" fill="url(#g)"/>
-{decor}
-</g>
-<rect x="{x0 + 0.5}" y="{y0 + 0.5}" width="{cw - 1}" height="{ch - 1}" rx="19.5" fill="none" stroke="{t["border"]}"/>
-<circle cx="{tx + 3}" cy="{y0 + 50}" r="3.5" fill="{rgba(rgb, 1)}"/>
-<text class="m" x="{tx + 14}" y="{y0 + 55}" font-size="13" font-weight="600" letter-spacing="1" fill="{t["muted"]}">{esc(label.upper())}</text>
-{head_svg}
-{desc_svg}
-<text class="s" x="{tx}" y="{y0 + ch - 34}" font-size="16" font-weight="500" fill="{t["text"]}">{esc(cta)}</text>
-<text class="s arrow" x="{tx + cta_w + 8}" y="{y0 + ch - 34}" font-size="16" font-weight="500" fill="{t["text"]}">→</text>
-</svg>"""
-
-
 # ── buttons ──────────────────────────────────────────────────────────────
 
 
@@ -362,11 +242,6 @@ def main():
     OUT.mkdir(exist_ok=True)
     for name, t in THEMES.items():
         (OUT / f"hero-{name}.svg").write_text(hero(t))
-        halves = iter(["left", "right"] * 4)
-        for key, label, rgb, head, desc, cta in CARDS:
-            wide = key == "engineer"
-            side = None if wide else next(halves)
-            (OUT / f"card-{key}-{name}.svg").write_text(card(t, key, label, rgb, head, desc, cta, wide, side))
         for key, label, primary in BUTTONS:
             (OUT / f"btn-{key}-{name}.svg").write_text(button(t, label, primary))
     print("wrote", len(list(OUT.glob("*.svg"))), "files to", OUT)
